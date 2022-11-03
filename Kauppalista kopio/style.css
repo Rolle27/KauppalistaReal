@@ -1,0 +1,116 @@
+body {
+    background-image: url("img/pexels-lukas-616401.jpg");
+    background-size: 100%;
+    
+}
+
+div {
+    text-align: center;
+}
+
+.header {
+    border-color: #111111;
+    border-width: 50px;
+   
+    border-radius: 50px;
+    
+    
+    
+   
+}
+
+
+h1 {
+    
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    
+
+}
+.container{
+    background-color: mistyrose;
+    border: solid 3px black;
+    border-radius: 50px;
+    padding: 7px 10px 7px 10px;
+    
+   
+   
+    
+    
+}
+#newtask{
+    position: relative;
+    padding: 30px 20px;
+}
+#newtask input{
+    width: 80%;
+    height: 35px;
+    padding: 12px;
+    color: #111111;
+    font-size: 25px;
+    position: relative;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace
+    font-size: 15px;
+    
+}
+
+
+#newtask button{
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 25px;
+    background-color: #679167;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    width: 15%;
+    height: 62px;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+}
+
+#newtask button:hover{
+    background-color: goldenrod;
+}
+
+
+.task{
+    border-width: 50%;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: white;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.task span{
+    font-family: 'Courier New', Courier, monospace
+    font-size: 24px;
+    
+}
+.task button{
+    background-color: #b60808;
+    float: left;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 55px;
+    border-radius: 5px;
+   
+
+}
+
+.task button:hover{
+    background-color: red;
+}
